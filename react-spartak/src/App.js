@@ -42,13 +42,43 @@ function App() {
         <div className="container">
           <div className="benefit">
             <div className="text_benefit">
-              <div className="title_benefit">Статистика</div>
-              <div className="description_benefit">
+              <div className="title_benefit even_title_benefit">Статистика</div>
+              <div className="description_benefit even_description_benefit">
                 Следите за своими успехами, воплощайте желания в
                 действительность. Контроллируйте результат и совершенствуйтесь
               </div>
             </div>
-            <div className="image_benefit"></div>
+            <div className="image_benefit img_1_benefits"></div>
+          </div>
+        </div>
+      </div>
+      <div className="benefits grey">
+        <div className="container">
+          <div className="benefit">
+            <div className="image_benefit img_2_benefits"></div>
+            <div className="text_benefit">
+              <div className="title_benefit odd_title_benefit">Достижения</div>
+              <div className="description_benefit odd_description_benefit">
+                Получайте отличительный знаки за свои старания и труд. Покажите
+                всем, чего Вы достигли
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="benefits">
+        <div className="container">
+          <div className="benefit">
+            <div className="text_benefit">
+              <div className="title_benefit even_title_benefit">
+                Разнообразие
+              </div>
+              <div className="description_benefit even_description_benefit">
+                Сформируйте личный режим тренировок. Занимайтесь, становитесь
+                сильнее и выносливее
+              </div>
+            </div>
+            <div className="image_benefit img_3_benefits"></div>
           </div>
         </div>
       </div>

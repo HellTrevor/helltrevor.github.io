@@ -213,6 +213,14 @@ code {
 
 /* BENEFITS */
 
+.benefits {
+  background: #f2dc90;
+}
+
+.grey {
+  background: #d3cfd3;
+}
+
 .benefits .container {
   margin: auto;
 
@@ -222,24 +230,41 @@ code {
 .benefit {
   display: flex;
   justify-content: space-between;
+
+  padding-top: 110px;
+  padding-bottom: 109px;
+}
+
+.benefit_middle {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 116px;
+  padding-bottom: 116px;
 }
 
 .text_benefit {
   max-width: 862px;
-
   text-align: center;
-
-  color: #676565;
 }
 
 .title_benefit {
   margin-bottom: 105px;
 
+  text-transform: uppercase;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
   line-height: 89px;
+}
+
+.even_title_benefit {
+  color: #676565;
+}
+
+.odd_title_benefit {
+  color: #2f2d2d;
 }
 
 .description_benefit {
@@ -250,8 +275,27 @@ code {
   line-height: 52px;
 }
 
+.even_description_benefit {
+  color: #383636;
+}
+
+.odd_description_benefit {
+  color: #2f2d2d;
+}
+
 .image_benefit {
   width: 368px;
   height: 381px;
-  background: url(/public/Assets/Images/Header/Search_icon.svg);
+}
+
+.img_1_benefits {
+  background: url(/public/Assets/Images/Main_page/Benefits/Image_statistic.png);
+}
+
+.img_2_benefits {
+  background: url(/public/Assets/Images/Main_page/Benefits/Image_achievements.png);
+}
+
+.img_3_benefits {
+  background: url(/public/Assets/Images/Main_page/Benefits/free-icon-dumbbell-38464.png);
 }
