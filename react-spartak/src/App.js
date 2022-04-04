@@ -83,6 +83,77 @@ function App() {
         </div>
       </div>
       {/* /BENEFITS */}
+      {/* ARTICLES */}
+      <div className="articles">
+        <div className="container">
+          <div className="text_article_section">
+            <div className="title_article_section">Статьи</div>
+            <div className="description_article_section">
+              Пользуйтесь полезными рекомендациями, смотрите развивающие вашу
+              спортивную жизнь видео-уроки и читайте статьи об улучшении своих
+              возможностей от лучших бодибилдеров и спортсменов. Занимайтесь
+              спортом, будьте крепкими и здоровыми!
+            </div>
+          </div>
+          <div className="articles_block">
+            <div className="arrow arrow_left"></div>
+            <div className="article">
+              <div className="image_article image_article_1"></div>
+              <div className="title_article_block">
+                <a className="title_article" href="#">
+                  Виды наборных гантелей. Упражнения с гантелями
+                </a>
+              </div>
+              <div className="description_block description_block_1">
+                <div className="description_article">
+                  Физические нагрузки на все группы мышц можно получить не
+                  только в тренажерном зале, но и в домашних условиях. Для этого
+                  нет необходимости в большом количестве тренажеров, будет
+                  достаточно все лишь разборных гантелей, у которых вы
+                  самостоятельно сможете регулировать...
+                </div>
+                <div className="see_more">Подробнее</div>
+              </div>
+            </div>
+            <div className="article">
+              <div className="image_article image_article_2"></div>
+              <div className="title_article_block">
+                <a className="title_article" href="#">
+                  Как правильно отжиматься от пола?
+                </a>
+              </div>
+              <div className="description_block description_block_2">
+                <div className="description_article">
+                  Если вы хотите научиться отжиматься максимально правильно, вы
+                  должны включить в программу своих тренировок упражнение
+                  планка. Планка на вытянутых руках развивает статические мышцы
+                  корпуса...
+                </div>
+                <div className="see_more">Подробнее</div>
+              </div>
+            </div>
+            <div className="article">
+              <div className="image_article image_article_3"></div>
+              <div className="title_article_block">
+                <a className="title_article" href="#">
+                  Современные тренажеры и виброплатформы для дома
+                </a>
+              </div>
+              <div className="description_block description_block_3">
+                <div className="description_article">
+                  Тренажеры просты в обращении и избавляют от большого
+                  количества проблем: слабый иммунитет, лишний вес, вялые мышцы,
+                  болезни позвоночника - вы же не хотите с этим столкнуться в
+                  реальной жизни?
+                </div>
+                <div className="see_more">Подробнее</div>
+              </div>
+            </div>
+            <div className="arrow arrow_2"></div>
+          </div>
+        </div>
+      </div>
+      {/* /ARTICLES */}
     </div>
   );
 }
