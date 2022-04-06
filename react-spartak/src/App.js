@@ -154,6 +154,42 @@ function App() {
         </div>
       </div>
       {/* /ARTICLES */}
+      {/* FOOTER */}
+      <div class="footer">
+        <div class="container">
+          <div className="footer_nav">
+            <div className="footer_block">
+              <div class="title_footer">Контакты</div>
+              <div className="info_footer_block">
+                <a class="info_footer">+38(0**) ***-**-**</a>
+              </div>
+              <div className="info_footer_block">
+                <a class="info_footer">igor.artemov.retry@gmail.com</a>
+              </div>
+            </div>
+            <div className="footer_block">
+              <div class="title_footer">Поддержка</div>
+              <div className="info_footer_block">
+                <a class="info_footer">Связаться с нами</a>
+              </div>
+            </div>
+            <div className="footer_block">
+              <div class="title_footer">Соц. сети</div>
+              <div class="socials_footer">
+                <div className="social_icon_footer social_img_1"></div>
+                <div className="social_icon_footer social_img_2"></div>
+                <div className="social_icon_footer social_img_3"></div>
+                <div className="social_icon_footer social_img_4"></div>
+              </div>
+            </div>
+          </div>
+          <div className="footer_block_end">
+            <div className="privacy_policy">Политика конфиденциальности</div>
+            <div className="footer_logo">Spartak</div>
+          </div>
+        </div>
+      </div>
+      {/* /FOOTER */}
     </div>
   );
 }

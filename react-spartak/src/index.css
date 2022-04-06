@@ -402,7 +402,9 @@ code {
 .title_article_block {
   margin: auto;
   margin-top: 25px;
+
   width: 423px;
+
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -462,6 +464,7 @@ code {
 .see_more {
   margin-left: 330px;
   margin-top: 12px;
+
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
@@ -477,3 +480,123 @@ code {
 }
 
 /* /ARTICLES */
+
+/* FOOTER */
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+  max-width: 1600px;
+  height: 200px;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1107px;
+}
+
+.footer_block {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.footer_block_end {
+  margin-top: 82px;
+}
+
+.info_footer_block {
+  margin: 2px 0;
+}
+
+.title_footer {
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 59px;
+
+  color: #d6b02e;
+}
+
+.info_footer {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #353535;
+
+  cursor: pointer;
+}
+
+.socials_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 220px;
+}
+
+.social_icon_footer {
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+}
+
+.social_img_1 {
+  background: url(/public/Assets/Images/Footer/VK.svg);
+}
+
+.social_img_2 {
+  background: url(/public/Assets/Images/Footer/Instagram.svg);
+}
+
+.social_img_3 {
+  height: 34px;
+
+  background: url(/public/Assets/Images/Footer/Telegram.svg);
+}
+
+.social_img_4 {
+  height: 29px;
+
+  background: url(/public/Assets/Images/Footer/Youtube.svg);
+}
+
+.privacy_policy {
+  margin-right: 16px;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #353535;
+}
+
+.footer_logo {
+  margin-top: 11px;
+
+  font-family: "Redressed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #707070;
+
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+
+/* /FOOTER */
