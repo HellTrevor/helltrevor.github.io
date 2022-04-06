@@ -412,12 +412,12 @@ code {
   line-height: 47px;
   text-decoration-line: underline;
   text-transform: uppercase;
-
-  color: #323232;
 }
 
 .title_article {
   cursor: pointer;
+
+  color: #323232;
 }
 
 .title_article:visited {
