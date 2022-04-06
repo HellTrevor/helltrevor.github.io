@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-spartak/static/css/main.13c513f2.css",
+    "main.css": "/react-spartak/static/css/main.9dcef218.css",
     "main.js": "/react-spartak/static/js/main.1d158315.js",
     "static/media/Background_articles.jpg": "/react-spartak/static/media/Background_articles.832e600c1b1e2daafea2.jpg",
     "static/media/Background_intro.jpg": "/react-spartak/static/media/Background_intro.3ad7ce27ea33365724a5.jpg",
@@ -16,11 +16,11 @@
     "static/media/Telegram.svg": "/react-spartak/static/media/Telegram.ce232aa200b43f8db6ec.svg",
     "index.html": "/react-spartak/index.html",
     "static/media/Youtube.svg": "/react-spartak/static/media/Youtube.13385c5cd67fdb91cdb5.svg",
-    "main.13c513f2.css.map": "/react-spartak/static/css/main.13c513f2.css.map",
+    "main.9dcef218.css.map": "/react-spartak/static/css/main.9dcef218.css.map",
     "main.1d158315.js.map": "/react-spartak/static/js/main.1d158315.js.map"
   },
   "entrypoints": [
-    "static/css/main.13c513f2.css",
+    "static/css/main.9dcef218.css",
     "static/js/main.1d158315.js"
   ]
 }
