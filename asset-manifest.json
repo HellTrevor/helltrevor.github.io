@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-spartak/static/css/main.9dcef218.css",
-    "main.js": "/react-spartak/static/js/main.1d158315.js",
+    "main.css": "/react-spartak/static/css/main.2601ead2.css",
+    "main.js": "/react-spartak/static/js/main.402899f7.js",
     "static/media/Background_articles.jpg": "/react-spartak/static/media/Background_articles.832e600c1b1e2daafea2.jpg",
     "static/media/Background_intro.jpg": "/react-spartak/static/media/Background_intro.3ad7ce27ea33365724a5.jpg",
     "static/media/Image_articles_3_main_page.jpg": "/react-spartak/static/media/Image_articles_3_main_page.a52cc0e545bce449dc83.jpg",
@@ -10,17 +10,18 @@
     "static/media/Image_achievements.png": "/react-spartak/static/media/Image_achievements.fe3c3e4ca79efdf710d7.png",
     "static/media/free-icon-dumbbell-38464.png": "/react-spartak/static/media/free-icon-dumbbell-38464.d20c24e9c27eb60633b5.png",
     "static/media/Light_Theme.svg": "/react-spartak/static/media/Light_Theme.979cabd2d90768f5b7d5.svg",
+    "static/media/Light_Theme_hover.svg": "/react-spartak/static/media/Light_Theme_hover.dfa0bc58a83846e8628a.svg",
     "static/media/Search_icon.svg": "/react-spartak/static/media/Search_icon.ef73a05fbd23ed9dbd5c.svg",
     "static/media/Instagram.svg": "/react-spartak/static/media/Instagram.76bee5eaca140ed28d3a.svg",
     "static/media/VK.svg": "/react-spartak/static/media/VK.fe3f20282b3a7c3ad302.svg",
     "static/media/Telegram.svg": "/react-spartak/static/media/Telegram.ce232aa200b43f8db6ec.svg",
     "index.html": "/react-spartak/index.html",
     "static/media/Youtube.svg": "/react-spartak/static/media/Youtube.13385c5cd67fdb91cdb5.svg",
-    "main.9dcef218.css.map": "/react-spartak/static/css/main.9dcef218.css.map",
-    "main.1d158315.js.map": "/react-spartak/static/js/main.1d158315.js.map"
+    "main.2601ead2.css.map": "/react-spartak/static/css/main.2601ead2.css.map",
+    "main.402899f7.js.map": "/react-spartak/static/js/main.402899f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dcef218.css",
-    "static/js/main.1d158315.js"
+    "static/css/main.2601ead2.css",
+    "static/js/main.402899f7.js"
   ]
 }
