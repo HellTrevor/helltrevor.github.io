@@ -2,9 +2,9 @@ function App() {
   return (
     <div className="wrapper">
       {/* HEADER */}
-      <div className="header">
+      <header className="header">
         <div className="container">
-          <div className="row space-between">
+          <div className="header_wrapper row">
             <div className="logo">Spartak</div>
             <div className="language_box">Рус</div>
             <div className="nav">
@@ -23,207 +23,193 @@ function App() {
             <div className="theme"></div>
             <div className="search row">
               <div className="search_icon"></div>
-              <div className="search_text">Поиск</div>
-              <div className="search_background"></div>
+              <p className="search_text">Поиск</p>
             </div>
           </div>
           <div className="header_line"></div>
         </div>
-      </div>
+      </header>
       {/* /HEADER */}
 
       {/* INTRO */}
-      <div className="section_intro">
+      <section className="intro">
         <div className="container">
-          <div className="intro_text">Начни с зарядки</div>
-          <div className="intro_text">Заверши тренировкой</div>
+          <h1 className="intro_text">Начни с зарядки</h1>
+          <h1 className="intro_text">Заверши тренировкой</h1>
         </div>
-      </div>
+      </section>
       {/* /INTRO */}
 
       {/* BENEFITS */}
-      <div className="section_benefits">
-        <div className="container">
-          <div className="benefit row space-between">
-            <div className="benefit_text">
-              <div className="benefit_title even_title_benefit">Статистика</div>
-              <div className="benefit_description even_description_benefit">
-                Следите за своими успехами, воплощайте желания в
-                действительность. Контроллируйте результат и совершенствуйтесь
-              </div>
-            </div>
-            <div className="image_benefit img_1_benefits"></div>
+      <section className="benefits">
+        <div className="container row space-between">
+          <div className="benefit_text">
+            <h3 className="benefit_title">Статистика</h3>
+            <p>
+              Следите за своими успехами, воплощайте желания в действительность.
+              Контроллируйте результат и совершенствуйтесь
+            </p>
           </div>
-
-          <div className="benefit row space-between">
-            <div className="image_benefit img_2_benefits"></div>
-            <div className="benefit_text">
-              <div className="benefit_title odd_title_benefit">Достижения</div>
-              <div className="benefit_description odd_description_benefit">
-                Получайте отличительный знаки за свои старания и труд. Покажите
-                всем, чего Вы достигли
-              </div>
-            </div>
-          </div>
-
-          <div className="benefit row space-between">
-            <div className="benefit_text">
-              <div className="benefit_title even_title_benefit">
-                Разнообразие
-              </div>
-              <div className="benefit_description even_description_benefit">
-                Сформируйте личный режим тренировок. Занимайтесь, становитесь
-                сильнее и выносливее
-              </div>
-            </div>
-            <div className="image_benefit img_3_benefits"></div>
-          </div>
+          <div className="benefit_img img_1"></div>
         </div>
-      </div>
+
+        <div className="container row space-between">
+          <div className="benefit_text">
+            <h3 className="benefit_title">Достижения</h3>
+            <p>
+              Получайте отличительный знаки за свои старания и труд. Покажите
+              всем, чего Вы достигли
+            </p>
+          </div>
+          <div className="benefit_img img_2"></div>
+        </div>
+
+        <div className="container row space-between">
+          <div className="benefit_text">
+            <h3 className="benefit_title">Разнообразие</h3>
+            <p>
+              Сформируйте личный режим тренировок. Занимайтесь, становитесь
+              сильнее и выносливее
+            </p>
+          </div>
+          <div className="benefit_img img_3"></div>
+        </div>
+      </section>
       {/* /BENEFITS */}
 
       {/* ARTICLES */}
-      <div className="articles">
+      <section className="articles">
         <div className="container">
-          <div className="text_article_section">
-            <div className="title_article_section">Статьи</div>
-            <div className="description_article_section">
-              Пользуйтесь полезными рекомендациями, смотрите развивающие вашу
-              спортивную жизнь видео-уроки и читайте статьи об улучшении своих
-              возможностей от лучших бодибилдеров и спортсменов. Занимайтесь
-              спортом, будьте крепкими и здоровыми!
-            </div>
-          </div>
-          <div className="articles_block">
+          <h3 className="articles_title">Статьи</h3>
+          <p className="articles_desc">
+            Пользуйтесь полезными рекомендациями, смотрите развивающие вашу
+            спортивную жизнь видео-уроки и читайте статьи об улучшении своих
+            возможностей от лучших бодибилдеров и спортсменов. Занимайтесь
+            спортом, будьте крепкими и здоровыми!
+          </p>
+
+          <div className="slider">
             <div className="arrow"></div>
+
             <div className="article">
-              <a className="image_article" href="#">
-                <div className="image_article_1"></div>
-              </a>
-              <div className="title_article_block">
-                <a className="title_article" href="#">
-                  Виды наборных гантелей. Упражнения с гантелями
-                </a>
-              </div>
-              <div className="description_block description_block_1">
-                <div className="description_article">
+              <a className="article_img img_1" href="#"></a>
+              <h4 className="article_title">
+                <a href="#">Виды наборных гантелей. Упражнения с гантелями</a>
+              </h4>
+              <div className="article_desc">
+                <p>
                   Физические нагрузки на все группы мышц можно получить не
                   только в тренажерном зале, но и в домашних условиях. Для этого
                   нет необходимости в большом количестве тренажеров, будет
                   достаточно все лишь разборных гантелей, у которых вы
                   самостоятельно сможете регулировать...
-                </div>
-                <div className="block_see_more">
-                  <a className="see_more" href="#">
-                    Подробнее
-                  </a>
+                </p>
+                <div className="see_more">
+                  <a href="#">Подробнее</a>
                 </div>
               </div>
             </div>
+
             <div className="article">
-              <a className="image_article" href="#">
-                <div className="image_article_2"></div>
-              </a>
-              <div className="title_article_block">
-                <a className="title_article" href="#">
-                  Как правильно отжиматься от пола?
-                </a>
-              </div>
-              <div className="description_block description_block_2">
-                <div className="description_article">
+              <a className="article_img img_2" href="#"></a>
+              <h4 className="article_title">
+                <a href="#">Как правильно отжиматься от пола?</a>
+              </h4>
+              <div className="article_desc">
+                <p>
                   Если вы хотите научиться отжиматься максимально правильно, вы
                   должны включить в программу своих тренировок упражнение
                   планка. Планка на вытянутых руках развивает статические мышцы
                   корпуса...
-                </div>
-                <div className="block_see_more">
-                  <a className="see_more" href="#">
-                    Подробнее
-                  </a>
+                </p>
+                <div className="see_more">
+                  <a href="#">Подробнее</a>
                 </div>
               </div>
             </div>
+
             <div className="article">
-              <a className="image_article" href="#">
-                <div className="image_article_3"></div>
-              </a>
-              <div className="title_article_block">
-                <a className="title_article" href="#">
-                  Современные тренажеры и виброплатформы для дома
-                </a>
-              </div>
-              <div className="description_block description_block_3">
-                <div className="description_article">
+              <a className="article_img img_3" href="#"></a>
+              <h4 className="article_title">
+                <a href="#">Современные тренажеры и виброплатформы для дома</a>
+              </h4>
+              <div className="article_desc">
+                <p>
                   Тренажеры просты в обращении и избавляют от большого
                   количества проблем: слабый иммунитет, лишний вес, вялые мышцы,
                   болезни позвоночника - вы же не хотите с этим столкнуться в
                   реальной жизни?
-                </div>
-                <div className="block_see_more">
-                  <a className="see_more" href="#">
-                    Подробнее
-                  </a>
+                </p>
+                <div className="see_more">
+                  <a href="#">Подробнее</a>
                 </div>
               </div>
             </div>
-            <div className="arrow arrow_2"></div>
+
+            <div className="arrow"></div>
           </div>
         </div>
-      </div>
+      </section>
       {/* /ARTICLES */}
 
       {/* FOOTER */}
-      <div class="footer">
-        <div class="container">
-          <div className="footer_nav">
-            <div className="footer_block">
-              <div class="title_footer">Контакты</div>
-              <div className="info_footer_block">
-                <a class="info_footer" href="tel:+38(0**) ***-**-**">
-                  +38(0**) ***-**-**
-                </a>
-              </div>
-              <div className="info_footer_block">
-                <a
-                  class="info_footer"
-                  href="mailto:igor.artemov.retry@gmail.com"
-                >
-                  igor.artemov.retry@gmail.com
-                </a>
-              </div>
+      <footer class="footer">
+        <div class="container row space-between">
+          <div className="footer_nav_wrapper">
+            <div className="footer_nav">
+              <h4 class="footer_title">Контакты</h4>
+              <ul>
+                <li className="footer_text">
+                  <a href="tel:+38(0**) ***-**-**">+38(0**) ***-**-**</a>
+                </li>
+                <li className="footer_text">
+                  <a href="mailto:igor.artemov.retry@gmail.com">
+                    igor.artemov.retry@gmail.com
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div className="footer_block">
-              <div class="title_footer">Поддержка</div>
-              <div className="info_footer_block">
-                <a class="info_footer" href="#">
-                  Связаться с нами
-                </a>
-              </div>
+
+            <div className="footer_nav">
+              <h4 class="footer_title">Поддержка</h4>
+              <ul>
+                <li className="footer_text">
+                  <a href="#">Связаться с нами</a>
+                </li>
+              </ul>
             </div>
-            <div className="footer_block">
-              <div class="title_footer">Соц. сети</div>
-              <div class="socials_footer">
-                <a className="social_icon_footer social_img_1" href="#"></a>
-                <a className="social_icon_footer social_img_2" href="#"></a>
-                <a className="social_icon_footer social_img_3" href="#"></a>
-                <a className="social_icon_footer social_img_4" href="#"></a>
-              </div>
+
+            <div className="footer_nav">
+              <h4 class="footer_title">Контакты</h4>
+              <ul className="row">
+                <li className="footer_social_icon social_img_1">
+                  <a href="#"></a>
+                </li>
+                <li className="footer_social_icon social_img_2">
+                  <a href="#"></a>
+                </li>
+                <li className="footer_social_icon social_img_3">
+                  <a href="#"></a>
+                </li>
+                <li className="footer_social_icon social_img_4">
+                  <a href="#"></a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div className="footer_block_end">
+
+          <div className="footer_privacy_policy">
             <div className="privacy_policy">
-              <a className="footer_link" href="#">
-                Политика конфиденциальности
-              </a>
+              <a href="#">Политика конфиденциальности</a>
             </div>
             <div className="footer_logo">
-              <a className="footer_link link_logo" href="#">
+              <a className="logo" href="#">
                 Spartak
               </a>
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       {/* /FOOTER */}
     </div>
   );
