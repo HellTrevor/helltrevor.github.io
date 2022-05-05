@@ -1,0 +1,57 @@
+.benefits {
+  cursor: default;
+}
+
+.benefits .container {
+  padding: 110px 151.5px;
+
+  text-align: center;
+
+  color: #676565;
+
+  background-color: #f2dc90;
+}
+
+.benefits .container:nth-child(even) {
+  color: #2f2d2d;
+
+  background-color: #d3cfd3;
+
+  flex-direction: row-reverse;
+}
+
+.benefit_text {
+  max-width: 862px;
+}
+
+.benefit_title {
+  margin-bottom: 105px;
+
+  font-weight: 400;
+  font-size: 60px;
+
+  text-transform: uppercase;
+}
+
+.benefit_text p {
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 1.485;
+}
+
+.benefit_img {
+  width: 368px;
+  height: 381px;
+}
+
+.benefits .container .img_1 {
+  background-image: url(/src/Assets/Images/Main_page/Benefits/Image_statistic.png);
+}
+
+.benefits .container .img_2 {
+  background-image: url(/src/Assets/Images/Main_page/Benefits/Image_achievements.png);
+}
+
+.benefits .container .img_3 {
+  background-image: url(/src/Assets/Images/Main_page/Benefits/free-icon-dumbbell-38464.png);
+}
