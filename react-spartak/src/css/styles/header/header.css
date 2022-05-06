@@ -1,0 +1,157 @@
+.header {
+  position: sticky;
+  z-index: 1;
+
+  top: 0;
+  left: 0;
+}
+
+.header .container {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  color: #ffffff;
+
+  user-select: none;
+}
+
+.header_wrapper {
+  padding-top: 20px;
+  margin: 0 auto;
+
+  max-width: 1540px;
+}
+
+.logo {
+  font-family: "Redressed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.166;
+  letter-spacing: 0.05em;
+
+  cursor: pointer;
+}
+
+.language_box {
+  margin-left: 90px;
+  margin-right: 165px;
+
+  width: 39px;
+  height: 39px;
+
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #676565;
+
+  border-radius: 20px;
+
+  background-color: #f2dc90;
+
+  transition: background-color 0.4s;
+
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.language_box:hover {
+  background-color: #eaeaea;
+}
+
+.nav {
+  font-weight: 300;
+  font-size: 24px;
+
+  text-transform: uppercase;
+}
+
+.nav ul {
+  display: flex;
+
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav li + li {
+  margin-left: 108px;
+}
+
+.nav a {
+  color: #eaeaea;
+
+  outline: none;
+
+  text-decoration: none;
+
+  transition: color 0.2s linear;
+}
+
+.nav a:hover {
+  color: #f2dc90;
+}
+
+.theme {
+  margin-left: 165px;
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url(/src/Assets/Images/Header/Light_Theme.svg);
+
+  cursor: pointer;
+}
+
+.theme:hover {
+  background-image: url(/src/Assets/Images/Header/Light_Theme_hover.svg);
+}
+
+.search {
+  margin-left: 90px;
+
+  width: 360px;
+  height: 40px;
+
+  border-radius: 8px;
+
+  background-color: rgba(196, 196, 196, 0.5);
+
+  cursor: pointer;
+}
+
+.search_icon {
+  z-index: 2;
+
+  margin-left: 10px;
+
+  width: 24px;
+  height: 24px;
+
+  background-image: url(/src/Assets/Images/Header/Search_icon.svg);
+}
+
+.search_text {
+  z-index: 2;
+
+  margin-left: 13px;
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: #ffffff;
+}
+
+.header_line {
+  margin-top: 15px;
+
+  border: 2px solid #d6cbcb;
+  border-radius: 3px;
+
+  opacity: 0.5;
+}
